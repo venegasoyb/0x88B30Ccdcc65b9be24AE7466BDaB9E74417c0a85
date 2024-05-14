@@ -1,0 +1,11 @@
+
+void Game::gameOver()
+{
+	for (int i = 5; i < 15; i++)
+	{
+		SetPos(1, i);
+		cout << "                            " << endl;
+	}
+
+	SetPos(8, 7);
+	cout << "G a m e   O v e r" << endl;
