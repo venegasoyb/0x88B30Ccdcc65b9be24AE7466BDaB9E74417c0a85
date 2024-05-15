@@ -1,0 +1,14 @@
+		if (b4- b3 >= 50)
+		{
+			if (p_AP->y < WINDOW_HEIGHT)
+			{
+				p_AP->y += 3;
+			}
+			else
+			{
+				p_AP->y = 0;
+				p_AP->x = rand() % (WIDTH - aw) + (WINDOW_WIDTH / 2 - WIDTH / 2);
+			}
+			b3 = b4;
+		}
+ 
