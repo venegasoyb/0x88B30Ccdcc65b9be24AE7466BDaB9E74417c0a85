@@ -1,0 +1,11 @@
+class Invoker
+{
+public:
+     Invoker(Command *pCommand) : m_pCommand(pCommand){}
+     void Invoke()
+     {
+          m_pCommand->Execute();
+     }
+private:
+     Command *m_pCommand;
+};
