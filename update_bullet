@@ -1,0 +1,4 @@
+        print_bullet(bullet);
+        bulletspeed++;
+        if (bulletspeed % 2 == 0)
+            bullet = update_bullet(bullet);
