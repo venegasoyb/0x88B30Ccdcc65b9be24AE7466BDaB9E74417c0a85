@@ -1,0 +1,4 @@
+        print_target(target);
+        targetspeed++;
+        if(targetspeed % 2 == 0)
+            target = update_target(target);
