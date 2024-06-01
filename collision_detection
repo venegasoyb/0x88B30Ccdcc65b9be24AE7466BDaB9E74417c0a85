@@ -1,0 +1,3 @@
+        grade = grade + collision_detection(bullet, target);
+        gotoxy(0, 25);
+        printf("SCORE: %d", grade);
