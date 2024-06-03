@@ -1,0 +1,13 @@
+void eval(int instr) {
+  switch (instr) {
+    case HLT: {
+      running = false;
+      break;
+    }
+    case PSH: {
+      sp++;
+      stack[sp] = program[++ip];
+      break;
+    }
+  }
+}
