@@ -1,0 +1,16 @@
+[5, 6]
+ 
+// pop the top value, store it in a variable called a
+a = pop; // a contains 6
+[5] // stack contents
+ 
+// pop the top value, store it in a variable called b
+b = pop; // b contains 5
+[] // stack contents
+ 
+// now we add b and a. Note we do it backwards, in addition
+// this doesn't matter, but in other potential instructions
+// for instance divide 5 / 6 is not the same as 6 / 5
+result = b + a;
+push result // push the result to the stack
+[11] // stack contents
